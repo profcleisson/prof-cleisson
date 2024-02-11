@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    background-color: var(--cor05);
+    background-color: var(--cor03);
     text-align: center;
     color: white;
     padding: 10px;
@@ -38,7 +38,7 @@ li {
 }
 
 li:hover {
-    background-color: var(--cor05);
+    background-color: var(--cor02);
 }
 
 a {
