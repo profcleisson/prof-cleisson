@@ -32,12 +32,13 @@ table {
 }
 
 caption {
-    background-color: var(--cor02);
+    background-color: var(--cor05);
     padding: 8px;
     font-weight: bold;
     border-top: 1px solid black;
     border-left: 1px solid black;
     border-right: 1px solid black;
+    color: white;
 }
 
 th, td {
