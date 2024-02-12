@@ -20,7 +20,6 @@ div {
     padding: auto;
     width: 500px;
     height: 300px;
-    overflow-x: auto;
 }
 
 div#bottom {
