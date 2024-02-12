@@ -22,6 +22,10 @@ div {
     height: 300px;
 }
 
+div#bottom {
+    padding-bottom: 30px;
+}
+
 table {
     border-collapse: collapse;
 }
@@ -30,6 +34,9 @@ caption {
     background-color: var(--cor02);
     padding: 8px;
     font-weight: bold;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
 th, td {
