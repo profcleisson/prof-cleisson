@@ -42,6 +42,7 @@ li {
 
 li:hover {
     background-color: var(--cor04);
+    transition-duration: 0.4s;
 }
 
 a {
@@ -49,6 +50,14 @@ a {
     color: black;
     text-align: center;
     margin: auto;
+}
+
+a#cleisson {
+    color: white;
+}
+
+a#cleisson:hover {
+    color: var(--cor01);
 }
 
 a:hover {
