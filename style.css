@@ -49,8 +49,9 @@ a {
 
 li a {
     border: 1px solid black;
-    padding: 5px 30px;
     display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 li a:hover {
