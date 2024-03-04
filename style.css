@@ -7,6 +7,11 @@
     margin: 0px;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
 :root {
     --cor01: #7BCBFF;
     --cor02: #2EADFF;
@@ -35,21 +40,22 @@ ul {
     padding: 20px;
 }
 
-li {
-    border: 1px solid black;
-    padding: 6px;
-}
-
-li:hover {
-    background-color: var(--cor04);
-    transition-duration: 0.4s;
-}
-
 a {
     text-decoration: none;
     color: black;
     text-align: center;
     margin: auto;
+}
+
+li a {
+    border: 1px solid black;
+    padding: 5px 30px;
+    display: block;
+}
+
+li a:hover {
+    font-weight: bold;
+    background-color: var(--cor04);
 }
 
 a#cleisson {
