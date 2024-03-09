@@ -51,7 +51,7 @@ li a {
     border: 1px solid black;
     display: block;
     transition-duration: 0.4s;
-    padding: 12px;
+    padding: 10px 5px;
 }
 
 li a:hover {
